@@ -32,3 +32,12 @@ def now_serving(deli)
     deli.shift
   end
 end
+
+ticket = 1
+
+
+def get_ticket
+  puts "Your ticket number is #{ticket}."
+  ticket += 1
+  
+end
